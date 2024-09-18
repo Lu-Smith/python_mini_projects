@@ -51,3 +51,12 @@ print()
 print("guesses: ", end="")
 for guess in guesses:
     print(guess, end=" ")
+print()
+
+score = int(score / len(questions) * 100)
+if score == 100:
+    print(f"Your score is: {score}% 🍾🥂🎉")
+elif score >= 60:
+    print(f"Your score is: {score}% 😀")
+else:
+    print(f"Your score is: {score}% 🥺. Try it again.")
