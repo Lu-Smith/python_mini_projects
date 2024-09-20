@@ -1,7 +1,7 @@
 # Python Banking Program
 
 def show_balance():
-  pass
+  print(f"Your balance is ${balance:.2f}")
 
 def deposit():
   pass
@@ -31,3 +31,5 @@ while is_running:
     is_running = False
   else: 
     print("That is not a valid choice 🥺.")
+    
+  print("Thank you! Have a nice day!")
